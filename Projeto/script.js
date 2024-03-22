@@ -17,10 +17,10 @@ function toggleMode() {
         // se na lista de clase html conter Light
         if(html.classList.contains("Light")){
         //seleciona o atributo src de img e adicionar avatar light
-            img.setAttribute("src", "../assets/avatar-light.png" )
+            img.setAttribute("src", "../assets/cosmo.png" )
         }else{
         // se não tiver light, não alterar imagem
-            img.setAttribute("src", "../assets/avatar.png")
+            img.setAttribute("src", "../assets/cosmo.png")
         }
 
 }

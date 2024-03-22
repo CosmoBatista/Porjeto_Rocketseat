@@ -20,6 +20,11 @@ body {
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
 }
+
+img{
+  border: 1px solid black;
+  border-radius: 100px;
+}
 body *{
   color: var(--text-color);
   font-family: "Inter", sans-serif;
@@ -46,6 +51,11 @@ body *{
 --switch-bg-url: url(../assets/sun.svg);
 
 
+}
+
+.Frase{
+  margin: 10px auto 5px;
+  text-align: center;
 }
 #central {
   width: 100%;
@@ -87,7 +97,7 @@ header img  {
     position: absolute;
     top: 50% ;
     left: 0;
-     z-index: 1;
+    z-index: 1;
     transform:translateY(-50%);
 
     animation: slide-back 0.4s;
@@ -156,7 +166,7 @@ ul{
 /* incones com link */
 
 .Icons{
-  padding: 24px 0;
+  padding: 5px 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -192,8 +202,9 @@ footer{
     --bg-url: url(../assets/bg-desktop.jpg);
   }
   .Light{
-    --bg-url: url(../assets/bg-desktop-light.jpg);
+    --bg-url: url(../assets/bg\ light\ .avif);
   }
+  
 
 }
 
